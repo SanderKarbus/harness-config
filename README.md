@@ -1,27 +1,31 @@
-<<<<<<< HEAD
-# harness-config
+# AI Engineering Ruleset
 
-agent.md — AI Agent Engineering Ruleset (for multiple agents)
+This project uses a shared AI specification (`claude.md` / `.cursorrules` / `AGENTS.md`) to keep AI-generated code consistent, maintainable, and production-safe.
 
-This repository includes `agent.md`, a comprehensive engineering and quality harness intended for use by multiple AI agents and human contributors.
+The ruleset helps:
 
-`agent.md` defines mandatory rules and best practices for agent behavior, code generation, architecture, security, testing, and changelog procedures. It is the authoritative source that automated agents (for example, Copilot, Claude, GPT-based agents) and human developers should follow when making changes in this project.
+* reduce hallucinated implementations
+* prevent destructive refactors
+* keep architecture consistent
+* improve multi-agent collaboration
+* avoid unnecessary complexity
 
-Integrators and automated agents should read and enforce the rules in `agent.md` before generating, modifying, or refactoring code. The file is written to be machine-readable and clear for different agent implementations.
+## Core Principles
 
+* Follow existing project patterns and structure
+* Prefer simple and predictable solutions
+* Avoid unnecessary abstractions and dependencies
+* Do not rewrite unrelated working code
+* Make minimal, isolated changes whenever possible
+* Validate external input and maintain type safety
+* Never assume infrastructure that does not exist in the repository
 
-agent.md — AI Agent Engineering Ruleset
-=======
-agent.md — AI Agent Engineering Ruleset (for multiple agents)
->>>>>>> 373137f (docs: clarify agent.md is usable by multiple agents)
+## Changelog
 
-This repository includes `agent.md`, a comprehensive engineering and quality harness intended for use by multiple AI agents and human contributors.
+Meaningful AI-generated changes should be logged in:
 
-`agent.md` defines mandatory rules and best practices for agent behavior, code generation, architecture, security, testing, and changelog procedures. It is the authoritative source that automated agents (for example, Copilot, Claude, GPT-based agents) and human developers should follow when making changes in this project.
+```txt id="pdj3b6"
+ai_changelog.md
+```
 
-<<<<<<< HEAD
-Follow the guidance in `agent.md` before adding, modifying, or refactoring code.
-=======
-Integrators and automated agents should read and enforce the rules in `agent.md` before generating, modifying, or refactoring code. The file is written to be machine-readable and clear for different agent implementations.
-# harness-config
->>>>>>> 373137f (docs: clarify agent.md is usable by multiple agents)
+This acts as a historical record for maintainers and future AI agents.
