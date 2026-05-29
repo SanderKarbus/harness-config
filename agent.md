@@ -1,4 +1,4 @@
-MASTER SPECIFICATION & QUALITY HARNESS
+# MASTER SPECIFICATION & QUALITY HARNESS
 
 ## Universal AI Engineering Ruleset (`claude.md` / `.cursorrules` / `AGENTS.md`)
 
@@ -661,6 +661,7 @@ Prefer commit messages like:
 ---
 
 ## Backward Compatibility
+## Backward Compatibility
 
 Prefer non-breaking:
 
@@ -726,15 +727,15 @@ Minor formatting-only edits may be omitted.
 * **Files Modified:** `src/example.ts`
 
 * **What Was Done:**
-  * Added...
-  * Refactored...
-  * Fixed...
+	* Added...
+	* Refactored...
+	* Fixed...
 
 * **Why It Was Done:**
-  Business or architectural justification.
+	Business or architectural justification.
 
 * **Impact / Breaking Changes:**
-  None
+	None
 ```
 
 ---
@@ -943,3 +944,4 @@ If uncertainty materially affects correctness:
 * or ask the user.
 
 Never present assumptions as confirmed implementation details.
+
