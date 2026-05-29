@@ -943,6 +943,3 @@ If uncertainty materially affects correctness:
 * or ask the user.
 
 Never present assumptions as confirmed implementation details.
-
-
-see on vaja teha failiks ja pushida sellesse samasse reposse =) folder nimega agent.md
